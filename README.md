@@ -24,7 +24,7 @@ elevated with a Quilt projection layer so every mempool operation is a
 | "Tappable cell" UI | 🔮 Stub — data model ready, render is a separate task |
 | Python reference port | ✅ Example in `QUILT.md` |
 | C / production port | 🔮 Future |
-| GPU scheduler (flx-cuda) | 🔮 Future |
+| GPU scheduler ([flux-cuda](https://github.com/SuperInstance/flux-cuda)) | 🔮 Future |
 | Vectorize cross-pollination | 🔮 Future — needs Cloudflare DNS clear |
 
 ## The big idea — every mempool op is a tappable cell
@@ -83,6 +83,6 @@ cell. The witness chain IS the audit log.
   the cell-plugin bridge; mempool operations become Cordis plugins
 - [SuperInstance/quilt-foundation](https://github.com/SuperInstance/quilt-foundation) —
   the 5+1 opcode algebra
-- [SuperInstance/flx-cuda](https://github.com/SuperInstance/flx-cuda) —
-  GPU-accelerated priority scheduling
+- [SuperInstance/flux-cuda](https://github.com/SuperInstance/flux-cuda) —
+  GPU-accelerated bytecode VM (1000 parallel agents); reusable kernel surface
 - The original: [fuad403273/MCPMempool](https://github.com/fuad403273/MCPMempool)
