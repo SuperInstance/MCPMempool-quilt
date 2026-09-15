@@ -86,5 +86,5 @@ cell. The witness chain IS the audit log.
 - [SuperInstance/flux-cuda](https://github.com/SuperInstance/flux-cuda) —
   GPU-accelerated bytecode VM (1000 parallel agents); reusable kernel surface
 - [SuperInstance/flx-cuda](https://github.com/SuperInstance/flx-cuda) —
-  GPU-accelerated priority scheduler for cell-graph queues; the GPU sibling of MCPMempool
+  GPU-accelerated priority scheduler for cell-graph queues (the GPU sibling of MCPMempool)
 - The original: [fuad403273/MCPMempool](https://github.com/fuad403273/MCPMempool)
